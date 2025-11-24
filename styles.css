@@ -1,0 +1,60 @@
+body {
+background-image: linear-gradient(135deg, rgb(192, 80, 99), rgb(74, 74, 196));
+height: 100vh;
+
+}
+#foto {background-image: url(assets/photo/foto.png);
+height:280px;
+width: 280px;
+background-size: cover;
+background-position: left;
+border-radius:50%}
+
+h1{
+    color: #ffff;
+font-family: "Open Sans", sans-serif;
+font-size: 2rem;
+font-weight: 700;
+margin: 33px 0px 27px 0px;
+}
+
+.buttonSocial {border-radius: 50px;
+width: 280px;
+height: 40px;
+display: block;
+background-color:  #00000030;
+color: #ffff;
+font-family: "Open Sans", sans-serif;
+font-weight: 500px;
+padding: 27px;
+margin-bottom: 27px;
+position: relative;
+cursor: pointer;
+
+img{height: 24px;
+    position: absolute;
+    left: 42px;
+    top: 9px;
+}
+
+p {position: absolute;
+left:80px ;
+top: 12px;
+font-size: 1.125rem;
+line-height: 1.125rem;
+
+;}
+
+}
+
+.instaButton{
+    background-color:  #00000095;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
